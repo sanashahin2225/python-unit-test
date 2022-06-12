@@ -24,4 +24,4 @@ jobs:
         username: ubuntu
         key: ${{ secrets.KEY }}
         port: 22
-        script: cd python-app && git pull && python test_sum_unittest.py
+        script: echo "hello world" && cd python-app && git pull && python test_sum_unittest.py
